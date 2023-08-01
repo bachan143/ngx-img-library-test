@@ -10,7 +10,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 import { Handle } from "./handle";
 import { PointPool } from "./pointPool";
-export class DragMarker extends Hnadle {
+export class DragMarker extends Handle {
     constructor(x, y, radius, cropperSettings) {
         super(this, x, y, radius, cropperSettings);
         this.iconPoints = [];
