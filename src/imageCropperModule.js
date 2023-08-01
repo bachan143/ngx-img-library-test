@@ -1,9 +1,9 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { ImageCropperComponent } from "./imageCropperComponent";
-var ImageCropperModule = /** @class */ (function () {
-    function ImageCropperModule() {
-    }
+export class ImageCropperModule {
+
+}
     ImageCropperModule.decorators = [
         { type: NgModule, args: [{
                     imports: [CommonModule],
@@ -11,9 +11,4 @@ var ImageCropperModule = /** @class */ (function () {
                     exports: [ImageCropperComponent]
                 },] },
     ];
-    /** @nocollapse */
-    ImageCropperModule.ctorParameters = function () { return []; };
-    return ImageCropperModule;
-}());
-export { ImageCropperModule };
 //# sourceMappingURL=imageCropperModule.js.map
